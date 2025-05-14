@@ -1,10 +1,10 @@
-🌟 # Meu Portfólio Pessoal
+# 🌟 Meu Portfólio Pessoal
 
 
-✨ ## Sobre
+## ✨ Sobre
 Este é o meu portfólio pessoal, criado para apresentar minhas habilidades, projetos e trajetória como desenvolvedor web. O objetivo é ter uma vitrine profissional e acessível para quem deseja conhecer meu trabalho.
 
-🛠️ ## Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 HTML5
 
 CSS3
@@ -15,7 +15,7 @@ GSAP
 
 ScrollReveal
 
-📁 ## Estrutura do Projeto
+## 📁 Estrutura do Projeto
 markdown
 Copiar código
 /
@@ -26,7 +26,7 @@ Copiar código
 │   └── script.js
 └── assets/
     └── imagens/
-🚀 ## Acessar o Projeto
+## 🚀 Acessar o Projeto
 Você pode visualizar o portfólio online neste link:
 
 👉 [Ver Portfólio Online]()
@@ -37,13 +37,13 @@ Copiar código
 git clone https://github.com/JoaoGabriel04/MyPortfolio.git
 Depois, basta abrir o arquivo index.html no navegador.
 
-📞 ###Contato
-📧 ###Email: jgabrielcastro04@gmail.com
+### 📞 Contato
+### 📧 Email: jgabrielcastro04@gmail.com
 
-💼 ###LinkedIn: https://www.linkedin.com/in/joaogabriel04
+### 💼 LinkedIn: https://www.linkedin.com/in/joaogabriel04
 
-🐙 ###GitHub: https://github.com/JoaoGabriel04/MyPortfolio
+### 🐙 GitHub: https://github.com/JoaoGabriel04/MyPortfolio
 
-📝 ###Licença
+### 📝 Licença
 Este projeto está sob a licença MIT. Fique à vontade para utilizar como inspiração.
 
