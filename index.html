@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Gabriel Castro - Web Developer passionate about modern and responsive interfaces.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Portifolio</title>
+</head>
+
+<body class="body">
+
+    <header id="header">
+        <div class="logo-header">
+            <div class="avatar-container">
+                <img src="./assets/images/my-photo.png" alt="Avatar" class="avatar">
+            </div>
+            <h1>MyPort</h1>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch">
+                    <span class="slider"></span>
+                </label>
+                <a href="#contact" class="button">Call me</a>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars" id="menuButton"></i>
+    </header>
+    <nav id="sidebar-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <label class="switch">
+                    <input type="checkbox" id="toggleSwitch-mobile">
+                    <span class="slider"></span>
+                </label>
+                <a href="#contact" class="button">Call me</a>
+            </ul>
+        </nav>
+        <div id="overlay"></div>
+    <main>
+
+        <div id="home" class="hero-container">
+            <section class="side-left">
+                <h3>Welcome To My Portfolio</h3>
+                <h1>Hi, I'm <span>Gabriel Castro</span></h1>
+                <h1>a Web Developer</h1>
+                <p>Passionate about creating modern, responsive interfaces and experiences that delight. From
+                    concept to
+                    code, I build digital solutions that make a difference.</p>
+                <a href="#contact">Contact Now</a>
+            </section>
+            <section class="side-right">
+                <div class="img-container">
+                    <img src="./assets/images/my-photo.png" alt="">
+                </div>
+            </section>
+        </div>
+
+        <hr id="firstLine" class="dividing-line">
+
+        <section id="skills" class="cards-section">
+            <h3 class="subtitle">Skills</h3>
+            <h1 class="title">My Skills</h1>
+
+            <div class="cards-container">
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+                    <h1>HTML</h1>
+                    <p>I structure pages with semantics and good practices, creating solid foundations for
+                        modern
+                        websites.</p>
+                    <span><strong>Domain: </strong>Advanced</span>
+                </div>
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h1>CSS</h1>
+                    <p>I design responsive and pleasant interfaces, focusing on clean design and user
+                        experience.
+                    </p>
+                    <span><strong>Domain: </strong>Intermediary</span>
+                </div>
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-square-js" style="color: #F7DF1E;"></i>
+                    <h1>JavaScript (ES6+)</h1>
+                    <p>I program interactivity, front-end logic and small animations, making the website alive
+                        and
+                        dynamic.</p>
+                    <span><strong>Domain: </strong>Intermediary</span>
+                </div>
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-node-js" style="color: #339933;"></i>
+                    <h1>Node Js</h1>
+                    <p>API and back-end development with a focus on performance and scalability.</p>
+                    <span><strong>Domain: </strong>Intermediary</span>
+                </div>
+                <div class="card efeito-card">
+                    <img src="./assets/icons/express-js.png">
+                    <h1>Express Js</h1>
+                    <p>Creation of routes, middleware and system integration in a simple and efficient way.</p>
+                    <span><strong>Domain: </strong>Intermediary</span>
+                </div>
+                <div class="card efeito-card">
+                    <img src="./assets/icons/jwt.png">
+                    <h1>JWT (JSON Web Token)</h1>
+                    <p>I implement secure authentication in APIs and web systems, ensuring data protection.</p>
+                    <span><strong>Domain: </strong>In improvement</span>
+                </div>
+                <div class="card efeito-card">
+                    <img src="./assets/icons/mongodb.png">
+                    <h1>Mongo DB</h1>
+                    <p>NoSQL database for projects with great flexibility and easy scalability.</p>
+                    <span><strong>Domain: </strong>Intermediary</span>
+                </div>
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-react" style="color: #61DAFB"></i>
+                    <h1>React Js</h1>
+                    <p>Development of dynamic interfaces with reusable components and well-managed states.</p>
+                    <span><strong>Domain: </strong>In improvement</span>
+                </div>
+                <div class="card efeito-card">
+                    <i class="fa-brands fa-bootstrap" style="color: #7952B3"></i>
+                    <h1>Bootstrap</h1>
+                    <p>Creation of fast and responsive layouts, maintaining visual standardization and
+                        productivity.
+                    </p>
+                    <span><strong>Domain: </strong>Advanced</span>
+                </div>
+                <div class="card efeito-card">
+                    <img src="./assets/icons/gsap.png">
+                    <h1>GSAP</h1>
+                    <p>Advanced and smooth animations to bring website elements to life with high performance.
+                    </p>
+                    <span><strong>Domain: </strong>In improvement</span>
+                </div>
+            </div>
+        </section>
+
+        <hr class="dividing-line">
+
+        <section id="portfolio">
+            <h3 class="subtitle center">Take a look at what I've done so far</h3>
+            <h1 class="title center">My Portfolio</h1>
+            <div class="projects-container">
+                <div class="card-project efeito-card">
+                    <div class="image-container">
+                        <img src="./assets/images/sib-ifma.png" alt="sib-ifma" loading="lazy">
+                    </div>
+                    <h1>SIB IFMA</h1>
+                    <p>Small project that served as a high school assignment, which aims to facilitate the
+                        control
+                        of
+                        students and staff at the Institute.</p>
+                    <div class="buttons-container">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access On Github</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access the website
+                        </a>
+                    </div>
+                </div>
+                <div class="card-project efeito-card">
+                    <div class="image-container">
+                        <img src="./assets/images/jogo-da-memoria.png" alt="jogo-da-memoria" loading="lazy">
+                    </div>
+                    <h1>MEMORY GAME</h1>
+                    <p>Memory game created during a course, using only HTML, CSS and JS.</p>
+                    <div class="buttons-container">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access On Github</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access the website
+                        </a>
+                    </div>
+                </div>
+                <div class="card-project efeito-card">
+                    <div class="image-container">
+                        <img src="./assets/images/jogo-da-velha.png" alt="tic-tac-toe" loading="lazy">
+                    </div>
+                    <h1>TIC TAC TOE</h1>
+                    <p>Created during advanced JS study, where we created using only the primary trio of web
+                        programming.</p>
+                    <div class="buttons-container">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access On Github</a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">Access the website
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="dividing-line">
+
+        <section id="about">
+            <h3 class="subtitle center">See my journey so far</h3>
+            <h1 class="title center">My Resume</h1>
+            <div class="resume-container">
+                <section class="content-left">
+                    <h1 class="content-title"><i class="fa-solid fa-user-graduate"></i>My Education</h1>
+                    <div class="box efeito-card">
+                        <h3>2020- 2022</h3>
+                        <h1>High School + Computer Technician</h1>
+                        <p>Instituto Federal do Maranhão, Campus Grajaú</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-down arrow"></i>
+                    <div class="box efeito-card">
+                        <h3>2023.2- 2024</h3>
+                        <h1>Electrical Engineering</h1>
+                        <p>Instituto Federal do Maranhão, Campus Imperatriz</p>
+                    </div>
+                    <i class="fa-solid fa-arrow-down arrow"></i>
+                    <div class="box efeito-card">
+                        <h3>2025- Today</h3>
+                        <h1>Bachelor of Computer Science</h1>
+                        <p>Centro Universitário UNIGRANDE - EAD</p>
+                    </div>
+
+                </section>
+                <section class="content-right">
+                    <h1 class="content-title"><i class="fa-solid fa-briefcase"></i>My Experience</h1>
+                    <div class="box">
+                        <h3>2023.1 / 2025 - Today</h3>
+                        <h1>Microtec Informática</h1>
+                        <p>Working with Sales, classes and printing</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <hr class="dividing-line">
+
+    </main>
+
+    <footer id="contact">
+        <div>
+            <h3 class="subtitle">All social networks</h3>
+            <h1 class="title">Contact Me</h1>
+        </div>
+        <section class="social-links">
+            <section class="social-buttons">
+                <h3>Find Me At</h3>
+                <div class="links-group">
+                    <a href="#" class="item">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" class="item">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="item">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </section>
+            <hr class="dividing-vertical">
+            <section class="contact-list">
+                <h3>More ways to contact</h3>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Phone:</h3>
+                    <p>(99) 99174-8282</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email:</h3>
+                    <p>jgabrielcastro04@gmail.com</p>
+            </section>
+            <hr class="dividing-vertical">
+            <section class="links-nav">
+                <a href="#home">Return to Top</a>
+                <a href="./assets/archives/Currículo João Gabriel Castro Silva.pdf" download="">Download My CV</a>
+            </section>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./scripts/animationsGSAP.js"></script>
+    <script src="./scripts/reveal.js"></script>
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
