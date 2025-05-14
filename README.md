@@ -33,7 +33,7 @@ Copiar código
 🚀 ## Acessar o Projeto
 Você pode visualizar o portfólio online neste link:
 
-👉 [Ver Portfólio Online]()
+👉 [Ver Portfólio Online](https://gabrielcaslvportfolio.netlify.app)
 
 Ou se preferir, clone o repositório:
 bash
