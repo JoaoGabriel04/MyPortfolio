@@ -1,3 +1,7 @@
+## 🖼️ Preview do Projeto
+
+![Screenshot do Portfólio](./assets/screenshots/banner-page.png)
+
 # 🌟 Meu Portfólio Pessoal
 
 

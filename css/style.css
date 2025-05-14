@@ -570,7 +570,7 @@ footer .social-links {
   height: 150px;
   transform: translateY(-10px);
   border: none;
-  background-color: var(--theme-tertiary);
+  background-color: var(--theme-secondary);
 }
 .contact-list {
   display: flex;
